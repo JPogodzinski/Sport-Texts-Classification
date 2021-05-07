@@ -21,9 +21,6 @@ x_train=v.fit_transform(x_np)
 naive_bayes.fit(x_train, y_train)
 
 ball_dev = pd.read_csv('dev-0/in.tsv', sep='\t', error_bad_lines=False, header=None)
-with open('dev-0/expected.tsv', 'r') as dev_exp_f:
-    Y_dev = np.array([float(x.rstrip('\n')) for x in dev_exp_f.readlines()])
-
 
 X_dev = pd.DataFrame(ball_dev)
 X_dev_np=X_dev.to_numpy()
