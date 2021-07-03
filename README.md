@@ -1,7 +1,9 @@
 
 Sport Texts Classification Challenge - Ball
 ======================
+Task done during Information Extraction course on AMU IT Masters Studies
 
+Using TFIDF and Naive Bayes
 Guess whether the sport is connected to the ball for a Polish article. Evaluation metrics: Accuracy, Likelihood.
 
 Classes
